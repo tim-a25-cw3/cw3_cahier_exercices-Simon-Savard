@@ -1,0 +1,39 @@
+.footer {
+    padding: 40px 0;
+    text-align: center;
+    background: var(--color-black);
+
+    h1 {
+        margin: 0;
+        font: 200 typo(56px) 'Work Sans', sans-serif;
+        color: rgba(256, 256, 256, 0.55);
+
+        span {
+            font-weight: bold;
+            color: var(--color-white);
+        }
+    }
+
+    p {
+        margin: 0;
+        font: 200 typo(18px) 'Work Sans', sans-serif;
+        color: var(--color-white);
+        padding-top: 10px;
+
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+.reseaux {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+
+    a {
+        color: rgba(256, 256, 256, 0.55);
+    }
+}
