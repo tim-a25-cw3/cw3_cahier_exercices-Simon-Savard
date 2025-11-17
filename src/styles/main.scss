@@ -1,6 +1,9 @@
 //FONTS
 // ici sont chargés les fonts
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 // TOOLS
 // mixins et fonctions utilisés globalement dans le SCSS (Sass)
 @import 'tools/typo';
@@ -30,3 +33,4 @@
 @import 'components/header';
 @import 'components/hero';
 @import 'components/section';
+@import 'components/card';
